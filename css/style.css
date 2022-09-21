@@ -1,0 +1,32 @@
+/*----------------
+    RESET
+-----------------*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------
+    COMMON
+-----------------*/
+
+.debug{
+    border: 1px dashed black;
+}
+
+.header-class{
+    display: flex;
+    justify-content: center;
+    background-color: #FF6900;
+}
+
+.gender, .icon{
+    width: 10%;
+    height: 100px;
+}
+
+.logo{
+    width: 40%;
+    height: 100px;
+}
