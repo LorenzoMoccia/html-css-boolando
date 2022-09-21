@@ -23,6 +23,10 @@ body{
     width: 450px;
     height: 643px;
 }
+
+i{
+    padding: 5px;
+}
 /*----------------
     HEADER
 -----------------*/
@@ -75,7 +79,6 @@ body{
 }
 
 .product-description{
-    background-color: lightcoral;
     width: 100%;
     height: 60px;
     margin-top: 645px;
@@ -91,17 +94,19 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 40px;
-    background-color: lightseagreen;
+    background-color: black;
 }
 
 .azienda{
     width: 60%;
     height: 100px;
+    margin-top: 20px;
 }
 
 .social-links{
     width: 10%;
     height: 100px;
+    margin-top: 20px;
 }
 
 /*----------------
@@ -113,4 +118,8 @@ body{
 
 .strike-price{
     text-decoration: line-through;
+}
+
+.footer-class{
+    color: white;
 }
