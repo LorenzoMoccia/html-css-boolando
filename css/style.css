@@ -15,6 +15,9 @@
     border: 1px dashed black;
 }
 
+/*----------------
+    HEADER
+-----------------*/
 .header-class{
     display: flex;
     justify-content: center;
@@ -31,6 +34,9 @@
     height: 100px;
 }
 
+/*----------------
+    MAIN
+-----------------*/
 .raw{
     display: flex;
     justify-content: center;
@@ -47,4 +53,25 @@
     background-color: lightcoral;
     height: 60px;
     margin-top: 645px;
+}
+
+/*----------------
+    FOOTER
+-----------------*/
+.footer-class{
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: lightseagreen;
+}
+
+.azienda{
+    width: 60%;
+    height: 100px;
+}
+
+.social-links{
+    width: 10%;
+    height: 100px;
 }
